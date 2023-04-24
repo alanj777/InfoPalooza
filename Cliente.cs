@@ -5,7 +5,10 @@ class cliente{
        public DateTime FechaInscripción {get; private set;}
        public int TipoEntrada {get; private set;}
        public double TotalAbonado {get; private set;}
-  public Cliente(string dni, string apellido, string nombre, int tipoentrada, int totalabonado){
+       public cliente(){
+
+       }
+  public cliente(string dni, string apellido, string nombre, int tipoentrada, int totalabonado){
        DNI = dni;
        Apellido = apellido;
        Nombre = nombre;
@@ -13,14 +16,14 @@ class cliente{
        TotalAbonado = totalabonado;
  }
  public bool CambiarEntrada(int tipoentrada, double totalabonado){
-  string respuesta;
+  int respuesta;
   if (tipoentrada != 4){
-  Console.WriteLine("Desea cambiar la entrada?");
-  respuesta = Console.ReadLine();
-  if (respuesta = "si" || respuesta = "sí" || respuesta = "SI" || respuesta = "SÍ" || respuesta = "Sí" || respuesta = "Si"){
+  Console.WriteLine("Desea cambiar la entrada? (1 = sí ; 2 = no)");
+  respuesta = int.Parse(Console.ReadLine());
+  if (respuesta == 1){
   Console.WriteLine("Qué entrada prefiere entre las otras 2? (Escribir cancelar para cancelar acción)");
-  respuesta = Console.ReadLine();
-  if (respuesta != "cancelar" && respuesta != tipoentrada && respuesta != 3 ){
+  respuesta = int.Parse(Console.ReadLine());
+  if (respuesta != 2 && respuesta != tipoentrada && respuesta != 3 ){
      tipoentrada = respuesta;
     return true;
   }
@@ -35,6 +38,7 @@ class cliente{
     return false;
   }
  }
+ return false;
  }
 
 }

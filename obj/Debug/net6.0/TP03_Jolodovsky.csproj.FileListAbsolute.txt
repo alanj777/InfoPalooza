@@ -3,3 +3,13 @@ Z:\Programación4to\TP03_Jolodovsky\obj\Debug\net6.0\TP03_Jolodovsky.GeneratedMS
 Z:\Programación4to\TP03_Jolodovsky\obj\Debug\net6.0\TP03_Jolodovsky.AssemblyInfoInputs.cache
 Z:\Programación4to\TP03_Jolodovsky\obj\Debug\net6.0\TP03_Jolodovsky.AssemblyInfo.cs
 Z:\Programación4to\TP03_Jolodovsky\obj\Debug\net6.0\TP03_Jolodovsky.csproj.CoreCompileInputs.cache
+Z:\Programación4to\TP03_Jolodovsky\bin\Debug\net6.0\TP03_Jolodovsky.exe
+Z:\Programación4to\TP03_Jolodovsky\bin\Debug\net6.0\TP03_Jolodovsky.deps.json
+Z:\Programación4to\TP03_Jolodovsky\bin\Debug\net6.0\TP03_Jolodovsky.runtimeconfig.json
+Z:\Programación4to\TP03_Jolodovsky\bin\Debug\net6.0\TP03_Jolodovsky.dll
+Z:\Programación4to\TP03_Jolodovsky\bin\Debug\net6.0\TP03_Jolodovsky.pdb
+Z:\Programación4to\TP03_Jolodovsky\obj\Debug\net6.0\TP03_Jolodovsky.dll
+Z:\Programación4to\TP03_Jolodovsky\obj\Debug\net6.0\refint\TP03_Jolodovsky.dll
+Z:\Programación4to\TP03_Jolodovsky\obj\Debug\net6.0\TP03_Jolodovsky.pdb
+Z:\Programación4to\TP03_Jolodovsky\obj\Debug\net6.0\TP03_Jolodovsky.genruntimeconfig.cache
+Z:\Programación4to\TP03_Jolodovsky\obj\Debug\net6.0\ref\TP03_Jolodovsky.dll
