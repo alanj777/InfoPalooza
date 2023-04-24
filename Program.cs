@@ -3,6 +3,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        dictionary<int, string, string, DateTime, int, double> Inscripciones= new dictionary<int, string, string, DateTime, int, double>;
+        dictionary<int, Cliente> Inscripciones= new dictionary<int, Cliente>;
     }
 }

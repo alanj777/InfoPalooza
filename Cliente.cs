@@ -25,6 +25,7 @@ class cliente{
     return true
   }
   else{
+    Console.WriteLine("---Error---");
     Console.WriteLine("Regresando al menú principal");
     return false;
   }
