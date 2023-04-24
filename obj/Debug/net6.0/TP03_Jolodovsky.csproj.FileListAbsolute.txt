@@ -1,0 +1,5 @@
+Z:\Programación4to\TP03_Jolodovsky\obj\Debug\net6.0\TP03_Jolodovsky.csproj.AssemblyReference.cache
+Z:\Programación4to\TP03_Jolodovsky\obj\Debug\net6.0\TP03_Jolodovsky.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Programación4to\TP03_Jolodovsky\obj\Debug\net6.0\TP03_Jolodovsky.AssemblyInfoInputs.cache
+Z:\Programación4to\TP03_Jolodovsky\obj\Debug\net6.0\TP03_Jolodovsky.AssemblyInfo.cs
+Z:\Programación4to\TP03_Jolodovsky\obj\Debug\net6.0\TP03_Jolodovsky.csproj.CoreCompileInputs.cache

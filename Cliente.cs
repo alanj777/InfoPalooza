@@ -22,7 +22,7 @@ class cliente{
   respuesta = Console.ReadLine();
   if (respuesta != "cancelar" && respuesta != tipoentrada && respuesta != 3 ){
      tipoentrada = respuesta;
-    return true
+    return true;
   }
   else{
     Console.WriteLine("---Error---");
