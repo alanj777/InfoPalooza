@@ -6,7 +6,11 @@ class cliente{
        public int TipoEntrada {get; private set;}
        public double TotalAbonado {get; private set;}
   public Cliente(string dni, string apellido, string nombre, int tipoentrada, int totalabonado){
-       
+       DNI = dni;
+       Apellido = apellido;
+       Nombre = nombre;
+       TipoEntrada = tipoentrada;
+       TotalAbonado = totalabonado;
  }
  public bool CambiarEntrada(int tipoentrada, double totalabonado){
   string respuesta;
@@ -16,9 +20,8 @@ class cliente{
   if (respuesta = "si" || respuesta = "sí" || respuesta = "SI" || respuesta = "SÍ" || respuesta = "Sí" || respuesta = "Si"){
   Console.WriteLine("Qué entrada prefiere entre las otras 2? (Escribir cancelar para cancelar acción)");
   respuesta = Console.ReadLine();
-  if (respuesta != "cancelar"){
-    totalabonado = totalabonado + 10000;
-    Console.WriteLine("Total abonado luego de la compra: $" + totalabonado);
+  if (respuesta != "cancelar" && respuesta != tipoentrada && respuesta != 3 ){
+     tipoentrada = respuesta;
     return true
   }
   else{
