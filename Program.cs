@@ -6,8 +6,19 @@ class Program
     static void Main(string[] args)
     {
         Dictionary<int, cliente> Inscripciones= new Dictionary<int, cliente>();
-        Console.WriteLine("i. Nueva Inscripción \nii. Obtener Estadísticas Del Evento \niii. Buscar Cliente \niv. Cambiar Entrada De Un Cliente \nv. Salir\n(Ingresar opción con numeros del teclado, no en números romanos)");
-
+        int opcion = IngresarEnteroEnRango("i. Nueva Inscripción \nii. Obtener Estadísticas Del Evento \niii. Buscar Cliente \niv. Cambiar Entrada De Un Cliente \nv. Salir\n(Ingresar opción con numeros del teclado, no en números romanos)", 1, 5);
+        switch(opcion){
+            case 1:
+            break;
+            case 2:
+            break;
+            case 3:
+            break;
+            case 4:
+            break;
+            case 5:
+            break;
+        }
     }
     static int IngresarEntero(string mensaje)
     {
